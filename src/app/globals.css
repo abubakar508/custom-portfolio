@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Comforta;
+  src: url("/public/assets/Comfortaa-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Dancing;
+  src: url("/public/assets/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('/public//assets/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: Lovers;
+  src: url('/public/assets/LoversQuarrel-Regular.ttf');
+}
+body {
+  @apply bg-primary text-white
+}
+
+.active {
+  @apply border-b-2 border-accent text-accent
+}
+
+.bg-accent {
+  @apply bg-[#7f1cfc]
+}
+.text-accent {
+  @apply text-[#7f1cfc]
+}
+.bg-hover {
+  @apply bg-[#6519c6]
+}
+.bg-primary {
+  @apply bg-[#06062a]
+}
+.text-primary {
+  @apply text-[#06062a]
+}
+.bg-secondary {
+  @apply bg-[#151538]
+}
+.text-secondary {
+  @apply text-[#151538]
+}
+.bg-tertiary{
+  @apply bg-[#242445]
+}
+.text-tertiary{
+  @apply text-[#242445]
+}
+
+.flexBetween {
+  @apply flex items-center justify-between
+}
+.flexEvenly {
+  @apply flex items-center justify-evenly
+}
+.flexCenter {
+  @apply flex items-center justify-center
+}
